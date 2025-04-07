@@ -31,19 +31,19 @@ window.addEventListener("load", quoteGenerator);
 
 // Function to generate and display a random quote
 function quoteGenerator() {
-   
+   //let to declare the variable quotes
    // Number of quotes in the array
-   let quoteCount = quotes.length;
+   let quoteCount = quotes.length; 
    
    // Generate a random integer to select a quote
    let randomQuote = randomInt(0, quoteCount);
    
    // Retrieve a randomly-selected quote
-   let quote = quotes[randomQuote];
+   let quote = quotes[randomQuote]; //randomQuotes to quote
    
    
    // Display the random quote
-   document.getElementsByTagName("blockquote")[0].innerHTML = quote;
+   document.getElementsByTagName("blockquote")[0].innerHTML = quote; //getElement to getElements and blockequote should be set ot 0 not one
 }
 
 
